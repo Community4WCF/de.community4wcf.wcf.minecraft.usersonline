@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: groupoptions.xml 1893 2012-03-05 20:10:29Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>				
+			<category name="user.profile.minecraft">
+				<parent>user.profile</parent>	
+			</category>
+		</categories>
+		<options>
+			<option name="canViewMinecraftUsersOnline">
+				<categoryname>user.profile.minecraft</categoryname>      
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<options>module_minecraft_usersonline</options>
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1898 2012-03-05 22:11:20Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_minecraft_usersonline"><![CDATA[Minecraft Users Online]]></item>
+		<item name="wcf.acp.option.module_minecraft_usersonline.description"><![CDATA[]]></item>
+		
+		<item name="wcf.acp.option.category.minecraft.usersonline"><![CDATA[Minecraft Users Online]]></item>
+		<item name="wcf.acp.option.category.minecraft.usersonline.description"><![CDATA[<a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"http://www.minecraft.net/"|rawurlencode}" class="externalURL">Minecraft</a> | <a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"http://bukkit.org/"|rawurlencode}" class="externalURL">Bukkit</a>]]></item>
+		<item name="wcf.acp.option.category.minecraft.usersonline.general"><![CDATA[General]]></item>
+		<item name="wcf.acp.option.category.minecraft.usersonline.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.minecraft.usersonline.sql"><![CDATA[SQL]]></item>
+		<item name="wcf.acp.option.category.minecraft.usersonline.sql.description"><![CDATA[<a href="{@RELATIVE_WCF_DIR}acp/dereferrer.php?url={"http://dev.bukkit.org/server-mods/onlineusers/"|rawurlencode}" class="externalURL">Bukkit Plugin: OnlineUsers</a>]]></item>
+		<item name="wcf.acp.option.minecraft_usersonline_sql_tablename"><![CDATA[Tablename]]></item>
+		<item name="wcf.acp.option.minecraft_usersonline_sql_tablename.description"><![CDATA[Example: users_online or wcf1_minecraft_usersonline]]></item>
+		<item name="wcf.acp.option.minecraft_usersonline_sql_feldname"><![CDATA[Feldname]]></item>
+		<item name="wcf.acp.option.minecraft_usersonline_sql_feldname.description"><![CDATA[name]]></item>
+		<item name="wcf.acp.option.minecraft_usersonline_cachetime"><![CDATA[Cachetime]]></item>
+		<item name="wcf.acp.option.minecraft_usersonline_cachetime.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.minecraft_usersonline_hidewithoutusersonline"><![CDATA[Hide users online]]></item>
+		<item name="wcf.acp.option.minecraft_usersonline_hidewithoutusersonline.description"><![CDATA[Hide without users online.]]></item>
+	</category>
+	
+	<category name="wcf.index">
+		<item name="wcf.index.minecraft.usersonline"><![CDATA[Minecraft Users Online]]></item>
+		<item name="wcf.index.minecraft.usersonline.description"><![CDATA[Currently {if $minecraftUsersOnline.userstotal == 1}is{else}are{/if} {#$minecraftUsersOnline.userstotal} Players on Minecraft-Server online.]]></item>
+	</category>
+	
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.category.user.profile.minecraft"><![CDATA[Minecraft]]></item>
+		<item name="wcf.acp.group.option.category.user.profile.minecraft.description"><![CDATA[]]></item>
+		<item name="wcf.acp.group.option.canViewMinecraftUsersOnline"><![CDATA[Can Minecraft Users Online see]]></item>
+		<item name="wcf.acp.group.option.canViewMinecraftUsersOnline.description"><![CDATA[]]></item>
+	</category>
+</language> 
