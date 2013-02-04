@@ -25,7 +25,7 @@
 	
 	<category name="wcf.index">
 		<item name="wcf.index.minecraft.usersonline"><![CDATA[Minecraft Spieler Online:]]></item>
-		<item name="wcf.index.minecraft.usersonline.description"><![CDATA[Zur Zeit {if $minecraftUsersOnline.userstotal == 1}ist{else}sind{/if} {#$minecraftUsersOnline.userstotal} Spieler am Minecraft-Server online.]]></item>
+		<item name="wcf.index.minecraft.usersonline.description"><![CDATA[Zur Zeit {if $minecraftUsersOnline.userstotal == 1}ist{else}sind{/if} {#$minecraftUsersOnline.userstotal} Spieler auf dem Minecraft-Server online.]]></item>
 	</category>
 	
 	<category name="wcf.acp.group">

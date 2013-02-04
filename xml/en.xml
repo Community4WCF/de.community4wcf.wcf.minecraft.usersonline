@@ -23,7 +23,7 @@
 	
 	<category name="wcf.index">
 		<item name="wcf.index.minecraft.usersonline"><![CDATA[Minecraft Users Online]]></item>
-		<item name="wcf.index.minecraft.usersonline.description"><![CDATA[Currently {if $minecraftUsersOnline.userstotal == 1}is{else}are{/if} {#$minecraftUsersOnline.userstotal} Players on Minecraft-Server online.]]></item>
+		<item name="wcf.index.minecraft.usersonline.description"><![CDATA[Currently {if $minecraftUsersOnline.userstotal == 1}is{else}are{/if} {#$minecraftUsersOnline.userstotal} Players on the Minecraft-Server online.]]></item>
 	</category>
 	
 	<category name="wcf.acp.group">

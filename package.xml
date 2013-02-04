@@ -9,8 +9,8 @@
 		<packagedescription language="de"><![CDATA[Bukkit Plugin: http://dev.bukkit.org/server-mods/onlineusers/]]></packagedescription>
 		<packagedescription language="de-informal"><![CDATA[Bukkit Plugin: http://dev.bukkit.org/server-mods/onlineusers/]]></packagedescription>
 		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
-		<version>1.0.0</version> <!-- codename: Minecraft Users Online -->
-		<date>2012-03-05</date>
+		<version>1.0.0 pl 1</version> <!-- codename: Minecraft Users Online -->
+		<date>2013-02-04</date>
 		<isunique>1</isunique>
 		<standalone>0</standalone>
 		<plugin>com.woltlab.wcf.data.page</plugin>
@@ -50,7 +50,13 @@
 		<languages languagecode="de-informal">xml/de-informal.xml</languages>
 		<languages languagecode="en">xml/en.xml</languages>
 	</instructions>
-	<instructions type="update" fromversion="*">
+	<instructions type="update" fromversion="1.0.0">
+		<!-- languages -->
+		<languages languagecode="de">xml/de.xml</languages>
+		<languages languagecode="de-informal">xml/de-informal.xml</languages>
+		<languages languagecode="en">xml/en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="1.0.0 *">
 		<!-- files -->
 		<files>files.tar</files>
 		<templates>templates.tar</templates>
